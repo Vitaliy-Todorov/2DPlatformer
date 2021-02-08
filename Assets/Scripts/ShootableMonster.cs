@@ -35,7 +35,7 @@ public class ShootableMonster : Monster
         newBullet.Parent = gameObject;
         //Direction - направление вектора
         newBullet.Direction = -newBullet.transform.right;
-        bulletColor = Color.black;
+        //bulletColor = Color.black;
         newBullet.Color = bulletColor;
     }
 

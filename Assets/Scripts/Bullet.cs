@@ -27,9 +27,6 @@ public class Bullet : MonoBehaviour
     private void Start()
     {
         Destroy(gameObject, 1.4F);
-
-        Debug.Log(sprite.color);
-        Debug.Log(Color);
     }
 
     private void Update()
